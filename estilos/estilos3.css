@@ -1,0 +1,45 @@
+.contenedor
+{
+    background-color: rgb(8, 8, 94);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    grid-template-areas: "header header header header"
+                         "nav nav nav nav"
+                         "contenido contenido contenido contenido"
+                         "footer footer footer footer";
+}
+
+.header
+{
+    grid-area: header;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.nav
+{
+    grid-area: nav;
+    color: aliceblue;
+}
+
+.contenido
+{
+    grid-area: contenido;
+    color: rgb(45, 147, 236);
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.footer
+{
+    grid-area: footer;
+    color: aliceblue;
+    
+    
+    
+}
